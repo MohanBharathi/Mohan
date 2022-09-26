@@ -13,5 +13,5 @@ let getQuote = () => {
     });
 };
 
-window.addEventListener("load", getQuote);
+document.addEventListener("load", getQuote);
 btn.addEventListener("click", getQuote);
